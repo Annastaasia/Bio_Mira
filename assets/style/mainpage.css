@@ -30,6 +30,9 @@
     color:white;
     margin-left: 4vw;
 }
+.mainpage__button:hover{
+    font-size:31px;
+}
 .mainpage__photodiv{
     grid-column:2/3;
     grid-row:1/5;
@@ -40,3 +43,31 @@
 .mainpage__photo{
     width:89.5%;
 }
+
+.mainpage__photodiv, .mainpage__photo{
+    opacity: 0;
+  animation-duration: 1s;
+  animation-name: appearance;
+    animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+    animation-timing-function: linear;  
+}
+
+.mainpage__photodiv, .mainpage__photo 
+{
+  animation-delay: 0s;
+}
+.mainpage__photo 
+{
+  animation-delay: 1s;   
+}
+@keyframes appearance
+{
+  from
+  {
+    opacity: 0;
+  }
+  to
+  {
+    opacity: 1;
+  }}

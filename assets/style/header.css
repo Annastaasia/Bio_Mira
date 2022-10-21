@@ -18,6 +18,9 @@ border-radius: 50px;
 .header__item1{
     width:6.8vw;
 }
+.header__item1:hover, .header__item2:hover, .header__item3:hover, .header__item4:hover{
+    font-size: 25px;
+}
 .header__item2{
     width:15.9vw;
 
