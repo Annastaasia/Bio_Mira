@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+    color:black
+}
+.tryforfree__h2{
+    width:48vw;
+    margin-left: 12vw;
+    margin-bottom: 0;
+    padding-top: 1vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    background-color: #2FC97F;
+    border-radius: 50px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.tryforfree__container{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: grid;
+    grid-template-columns: 55vw 35vw;
+    grid-template-rows: 20vh 30vh 24vh;
+
+}
+.tryforfree__text1{
+    grid-column: 1/2;
+    grid-row:2/3;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    background-image: url('../images/tryforfree/fon1.png');
+    background-repeat: no-repeat;
+    background-position:35% 50%; 
+    background-size: 12%;
+
+}
+.tryforfree__text1:hover{
+    background-size: 15%;
+    background-position:32% 43%; 
+}
+.tryforfree__text2{
+    grid-column:1/2;
+    grid-row:3/4;
+    padding-left: 9vw;
+    padding-top: 2vh;
+    text-align: center;
+    background-image: url(../images/tryforfree/fon2.png);
+    background-repeat: no-repeat;
+    background-position:60% 0%; 
+}
+.tryforfree__text2:hover{
+    background-size: 20%;
+}
+.tryforfree__text1, .tryforfree__text2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    margin:0;
+
+}
+.tryforfree__photodiv{
+    grid-column:2/3;
+    grid-row:1/5;
+   
+}
+.tryforfree__photo{
+    width: 100%;
+   
+    padding-top: 10vh;
+}
