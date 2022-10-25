@@ -15,19 +15,90 @@
 .whoiam__p1, .whoiam__p2, .whoiam__p3, .whoiam__p4 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 47px;
+    text-align: center;
 }
 
 .whoiam__p5 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: bold;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 59px;
+    text-align: center;
 }
 
 .whoiam__img {
     max-width: 100%;
     min-height: 100%;
+}
+
+.whoiam__container {
+    display: grid;
+                grid-template-areas: "whoiam__container2 whoiam__container3";
+                grid-template-columns: 1.5fr 1fr;
+                padding-top: 1%;
+}
+
+.whoiam__container2 {
+    grid-area: whoiam__container2;
+    display: grid;
+    grid-template-areas: "whoiam__p1 whoiam__p2"
+                         "whoiam__img whoiam__img ";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 1fr;
+}
+
+.whoiam__container3 {
+    grid-area: whoiam__container3;
+    display: grid;
+    grid-template-areas: "."
+                        "whoiam__p3"
+                        "whoiam__p4"
+                        "whoiam__p5"
+                         ".";
+    grid-template-rows: 1fr 1fr 1.2fr 1fr 1fr;
+}
+
+.whoiam__p1 {
+    grid-area: whoiam__p1;
+    margin-top: 30%;
+    display: grid;
+    justify-content: center;
+}
+
+.whoiam__p2 {
+    grid-area: whoiam__p2;
+    margin-top: 6%;
+
+}
+
+.whoiam__img {
+    grid-area: whoiam__img;
+}
+
+.whoiam__p3 {
+    grid-area: whoiam__p3;
+    margin-top: 0%;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+}
+
+.whoiam__p4 {
+    grid-area: whoiam__p4;
+    display: grid;
+    align-items: flex-end;
+    margin-left: 2%;
+
+}
+
+.whoiam__p5 {
+    grid-area: whoiam__p5;
+    display: grid;
+    justify-content: start;
+    align-content: flex-end;
+    margin-bottom: 0%;
+
 }
