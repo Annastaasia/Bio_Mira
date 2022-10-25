@@ -43,3 +43,47 @@ h2 {
 .lessons_text ul {
     text-decoration: none;
 }
+
+.lessons2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.video {
+    display: grid;
+}
+
+.teoria {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.lessons2 .teoria .conspect_img {
+    display: grid;
+    width: 20vw;
+    justify-content: start;
+}
+
+
+.lessons2 .teoria .button_left {
+    display: grid;
+    align-items: center;
+}
+.lessons2 .teoria .button_left a img {
+    display: grid;
+    width: 25%;
+
+}
+.lessons2 .teoria .button_right {
+    display: grid;
+    align-items: center;
+    width: 10vh;
+}
+
+.lessons2 .teoria .button_right a img {
+    width: 25%;
+}
