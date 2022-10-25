@@ -1,0 +1,33 @@
+.whoiam__h2 {
+    width: 22vw;
+    margin-left: 58vw;
+    margin-bottom: 0;
+    padding-top: 0.5vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    background-color: #2FC97F99;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.whoiam__p1, .whoiam__p2, .whoiam__p3, .whoiam__p4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.whoiam__p5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.whoiam__img {
+    max-width: 100%;
+    min-height: 100%;
+}
