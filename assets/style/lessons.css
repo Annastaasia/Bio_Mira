@@ -41,7 +41,7 @@ h2 {
 }
 
 .lessons_text ul {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .lessons2 {
@@ -60,18 +60,27 @@ h2 {
 .teoria {
     display: grid;
     grid-column: 2/3;
+    grid-template-columns: 15% 60% 15%;
+    grid-template-rows: 10% 90%;
 }
 
 .lessons2 .teoria .conspect_img {
     display: grid;
     width: 20vw;
-    justify-content: start;
+    grid-column: 2/3;
+}
+
+.lessons2 .teoria .conspect {
+    display: grid;
+    justify-content: center;
 }
 
 
 .lessons2 .teoria .button_left {
     display: grid;
     align-items: center;
+    grid-column: 1/2;
+    width: 5vh;
 }
 .lessons2 .teoria .button_left a img {
     display: grid;
@@ -81,9 +90,15 @@ h2 {
 .lessons2 .teoria .button_right {
     display: grid;
     align-items: center;
-    width: 10vh;
+    width: 5vh;
+    grid-column: 3/4;
 }
 
 .lessons2 .teoria .button_right a img {
     width: 25%;
+}
+
+.lessons2 .teoria h2 {
+    display: grid;
+    grid-column: 1/4;
 }
