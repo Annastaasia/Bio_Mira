@@ -1,7 +1,4 @@
-a{
-    text-decoration: none;
-    color:black
-}
+
 .tryforfree__h2{
     width:48vw;
     margin-left: 12vw;
@@ -34,6 +31,8 @@ a{
     background-repeat: no-repeat;
     background-position:35% 50%; 
     background-size: 12%;
+    text-decoration: none;
+    color:black;
     transition-property:background-size;
     transition-duration:1s;
     transition-timing-function:ease;
@@ -52,6 +51,8 @@ a{
     background-repeat: no-repeat;
     background-position:60% 0%; 
     background-size: 17%;
+    text-decoration: none;
+    color:black;
     transition-property:background-size;
     transition-duration:1s;
     transition-timing-function:ease;
@@ -67,6 +68,8 @@ a{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 40px;
+    text-decoration: none;
+    color:black;
     margin:0;
 }
 .tryforfree__text1, .tryforfree__text2{
@@ -81,4 +84,13 @@ a{
     grid-row:1/5;
     align-self: flex-end;
     width: 100%;
+}
+.link2{
+    color:black;
+    text-decoration: none;
+}
+
+.link2:hover{
+    color:black;
+    text-decoration: none;
 }

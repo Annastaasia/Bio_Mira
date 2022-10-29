@@ -1,5 +1,5 @@
 .header__item1, .header__item2, .header__item3, .header__item4 {
-height:40px;
+height:45px;
 padding-left:1vw;
 padding-right: 1vw;;
 padding-top:1vh;
@@ -12,25 +12,31 @@ text-align: center;
 border-radius: 50px;
 transition: font-size 0.5s ease;
 }
-.header a{
+.link1{
+    color:white;
+    text-decoration: none;
+}
+
+.link1:hover{
     color:white;
     text-decoration: none;
 }
 .header__item1{
-    width:6.8vw;
+    width:9vw;
 }
 .header__item1:hover, .header__item2:hover, .header__item3:hover, .header__item4:hover{
     font-size: 26px;
+    
 }
 .header__item2{
-    width:15.9vw;
+    width:18vw;
 
 }
 .header__item3{
     width:7.9vw;
 }
 .header__item4{
-    width:16.7vw;
+    width:18vw;
 }
 .header__logo{
     width:30vw;
@@ -40,7 +46,7 @@ transition: font-size 0.5s ease;
 }
 .header{
     display: flex;
-    width: 88vw;
+    width: 100vw;
     height:7vh;
     padding-left: 5vw;
     padding-right: 5vw;
