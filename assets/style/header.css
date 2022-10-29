@@ -1,5 +1,5 @@
 .header__item1, .header__item2, .header__item3, .header__item4 {
-height:45px;
+height: 8vh;
 padding-left:1vw;
 padding-right: 1vw;;
 padding-top:1vh;
@@ -12,24 +12,25 @@ text-align: center;
 border-radius: 50px;
 transition: font-size 0.5s ease;
 }
-.link1{
+.header a{
     color:white;
     text-decoration: none;
 }
 
-.link1:hover{
+.header a:hover{
     color:white;
     text-decoration: none;
 }
+
 .header__item1{
-    width:9vw;
+    width: 7.3vw;
 }
 .header__item1:hover, .header__item2:hover, .header__item3:hover, .header__item4:hover{
     font-size: 26px;
     
 }
 .header__item2{
-    width:18vw;
+    width:16.3vw;
 
 }
 .header__item3{
@@ -52,7 +53,6 @@ transition: font-size 0.5s ease;
     padding-right: 5vw;
     padding-top: 4vh;
     justify-content: space-between;
-    
 }
 .header__container{
     padding-top: 1vh;
