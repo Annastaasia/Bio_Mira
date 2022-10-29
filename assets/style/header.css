@@ -1,5 +1,5 @@
 .header__item1, .header__item2, .header__item3, .header__item4 {
-height: 8vh;
+height: 7vh;
 padding-left:1vw;
 padding-right: 1vw;;
 padding-top:1vh;
@@ -23,14 +23,14 @@ transition: font-size 0.5s ease;
 }
 
 .header__item1{
-    width: 7.3vw;
+    width: 8vw;
 }
 .header__item1:hover, .header__item2:hover, .header__item3:hover, .header__item4:hover{
     font-size: 26px;
     
 }
 .header__item2{
-    width:16.3vw;
+    width:18vw;
 
 }
 .header__item3{
