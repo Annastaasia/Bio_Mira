@@ -32,28 +32,32 @@
 .price__button1 {
 margin-right: 4vw;
 width: 13vw;
+height: 10vh;
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 1.7vw;
     font-weight: 800;
 }
 
 .price__button2 {
     width: 13vw;
+    height: 10vh;
         font-family: 'Raleway', sans-serif;
-        font-size: 25px;
+        font-size: 1.7vw;
         font-weight: 800;
     }
 
 .price__button3 {
     margin-left: 4vw;
     width: 13vw;
+    height: 10vh;
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 1.7vw;
     font-weight: 800;
 }
 
 .price__buttons {
     width: 13vw;
+    height: 14vh;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     font-weight: 800;
