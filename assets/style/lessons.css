@@ -76,10 +76,10 @@
 
 .lessons2 .teoria {
     display: grid;
-    height: 100vh;
+    height: 80vh;
     grid-column: 2/3;
     grid-template-columns: 15% 40% 15%;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 10% 70%;
     font-weight: 600;
 }
 
@@ -126,7 +126,7 @@
     display: grid;
     align-items: center;
 
-    width: 5vh;
+    width: 25vh;
     grid-column: 3/4;
     grid-row: 2/3;
 }
