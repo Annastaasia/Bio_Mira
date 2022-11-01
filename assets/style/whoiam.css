@@ -1,11 +1,12 @@
 .whoiam__h2 {
-    width: 22vw;
+    width: 17vw;
     margin-left: 58vw;
     margin-bottom: 0;
+    margin-top: 18vh;
     padding-top: 0.5vh;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 3vw;
     text-align: center;
     background-color:#2FC97F;
     color: rgb(255, 255, 255);
@@ -58,7 +59,7 @@
                         "whoiam__p4"
                         "whoiam__p5"
                          ".";
-    grid-template-rows: 1fr 1fr 1.2fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1.1fr 1fr 1fr;
     max-height: 120vh;
 }
 
@@ -86,7 +87,7 @@
     margin-top: 0%;
     display: grid;
     justify-content: start;
-    align-content: center;
+    align-content: flex-end;
     animation-delay: 7s;  
 }
 
