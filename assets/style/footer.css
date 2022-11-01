@@ -4,6 +4,7 @@
     margin: 0;
 }
 .footer__container{
+    padding-top: 3vh;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -12,7 +13,7 @@
 .footer__container1{
     display:grid;
     grid-template-columns: 8vw 12vw;
-    grid-template-rows: 10vh 5vh 5vh;
+    grid-template-rows: 8vh 5vh 5vh;
     padding-left: 5vw;
     row-gap: 2vh;
 }
@@ -31,7 +32,7 @@
     color:white;
 }
 .footer__container2{
-    padding-top: 5vh;
+    padding-top: 3vh;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows:repeat(5,4vh);
