@@ -101,6 +101,8 @@
 .lessons2 .teoria .button_left {
     display: grid;
     justify-self: end;
+    justify-self: end;
+    justify-items: end;
     align-content: center;
     grid-column: 1/2;
     width: 25vh;
@@ -108,11 +110,16 @@
 }
 .lessons2 .teoria .button_left a{
     justify-content: end;
+    justify-self: end;
+    justify-items: end;
 }
 
 .lessons2 .teoria .button_left a img {
     display: grid;
     width: 25%;
+    justify-content: end;
+    justify-self: end;
+    justify-items: end;
 
 }
 .lessons2 .teoria .button_right {
