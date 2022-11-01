@@ -18,8 +18,9 @@
     padding-left: 5vw;
     padding-right: 5vw;
     display: grid;
-    grid-template-columns: 55vw 35vw;
-    grid-template-rows: 20vh 30vh 24vh 20vh;
+    margin-top:10vh;
+    grid-template-columns: 50vw 40vw;
+    grid-template-rows: 13vh 40vh 30vh 30vh;
 
 }
 .tryforfree__text1{
@@ -29,8 +30,8 @@
     padding-left: 5vw;
     background-image: url('../images/tryforfree/fon1.png');
     background-repeat: no-repeat;
-    background-position:35% 50%; 
-    background-size: 12%;
+    background-position:38% 45%; 
+    background-size: 15%;
     text-decoration: none;
     color:black;
     transition-property:background-size;
@@ -39,7 +40,7 @@
 
 }
 .tryforfree__text1:hover{
-    background-size: 15%;
+    background-size: 18%;
 }
 .tryforfree__text2{
     grid-column:1/2;
@@ -49,8 +50,8 @@
     text-align: center;
     background-image: url(../images/tryforfree/fon2.png);
     background-repeat: no-repeat;
-    background-position:60% 0%; 
-    background-size: 17%;
+    background-position:62% 0%; 
+    background-size: 20%;
     text-decoration: none;
     color:black;
     transition-property:background-size;
@@ -58,7 +59,7 @@
     transition-timing-function:ease;
 }
 .tryforfree__text2:hover{
-    background-size: 20%;
+    background-size: 23%;
 
 }
 .tryforfree__text3{
@@ -68,9 +69,19 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 40px;
+    background-image: url(../images/tryforfree/fon2.png);
+    background-repeat: no-repeat;
+    background-position:45% 20%; 
+    background-size: 13%;
     text-decoration: none;
     color:black;
     margin:0;
+    transition-property:background-size;
+    transition-duration:1s;
+    transition-timing-function:ease;
+}
+.tryforfree__text3:hover{
+    background-size: 16%;
 }
 .tryforfree__text1, .tryforfree__text2{
     font-family: 'Raleway', sans-serif;
