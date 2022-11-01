@@ -65,7 +65,7 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% 90%;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 100%;
     text-align: center;
 }
@@ -74,11 +74,13 @@
     display: grid;
 }
 
-.lessons2.teoria {
+.lessons2 .teoria {
     display: grid;
+    height: 100vh;
     grid-column: 2/3;
-    grid-template-columns: 15% 60% 15%;
-    grid-row: 10% 90%;
+    grid-template-columns: 15% 40% 15%;
+    grid-template-rows: 10% 90%;
+    font-weight: 600;
 }
 
 .lessons2 .teoria .conspect_img {
@@ -98,11 +100,16 @@
 
 .lessons2 .teoria .button_left {
     display: grid;
+    justify-self: end;
     align-content: center;
     grid-column: 1/2;
-    width: 5vh;
+    width: 25vh;
     grid-row: 2/3;
 }
+.lessons2 .teoria .button_left a{
+    justify-content: end;
+}
+
 .lessons2 .teoria .button_left a img {
     display: grid;
     width: 25%;
@@ -111,6 +118,7 @@
 .lessons2 .teoria .button_right {
     display: grid;
     align-items: center;
+
     width: 5vh;
     grid-column: 3/4;
     grid-row: 2/3;
@@ -124,4 +132,5 @@
     display: grid;
     grid-column: 1/4;
     grid-row: 1/2;
+    font-weight: 600;
 }
