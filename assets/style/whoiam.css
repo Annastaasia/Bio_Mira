@@ -1,125 +1,179 @@
-.whoiam__h2 {
-    width: 17vw;
-    margin-left: 58vw;
-    margin-bottom: 0;
-    margin-top: 18vh;
-    padding-top: 0.5vh;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 3vw;
-    text-align: center;
-    background-color:#2FC97F;
-    color: rgb(255, 255, 255);
-    border-radius: 50px;
-}
+@media screen and (min-width: 601px) {
 
-.whoiam__p1, .whoiam__p2, .whoiam__p3, .whoiam__p4 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 2vw;
-    line-height: 47px;
-    text-align: center;
-}
-
-.whoiam__p5 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 2.5vw;
-    line-height: 59xp;
-    text-align: center;
-}
-
-.whoiam__img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.whoiam__container {
-    display: grid;
-                grid-template-areas: "whoiam__container2 whoiam__container3";
-                grid-template-columns: 1.5fr 1fr;
-                padding-top: 1%;
-}
-
-.whoiam__container2 {
-    grid-area: whoiam__container2;
-    display: grid;
-    grid-template-areas: "whoiam__p1 whoiam__p2"
-                         "whoiam__img whoiam__img ";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 10% 1fr;
-}
-
-.whoiam__container3 {
-    grid-area: whoiam__container3;
-    display: grid;
-    grid-template-areas: "."
-                        "whoiam__p3"
-                        "whoiam__p4"
-                        "whoiam__p5"
-                         ".";
-    grid-template-rows: 0.5fr 1fr 1.1fr 1fr 1fr;
-    max-height: 120vh;
-}
-
-.whoiam__p1 {
-    grid-area: whoiam__p1;
-    margin-top: 30%;
-    display: grid;
-    justify-content: center;
-    animation-delay: 5s;  
-}
-
-.whoiam__p2 {
-    grid-area: whoiam__p2;
-    margin-top: 6%;
-    animation-delay: 6s;  
-
-}
-
-.whoiam__img {
-    grid-area: whoiam__img;
-}
-
-.whoiam__p3 {
-    grid-area: whoiam__p3;
-    margin-top: 0%;
-    display: grid;
-    justify-content: start;
-    align-content: flex-end;
-    animation-delay: 7s;  
-}
-
-.whoiam__p4 {
-    grid-area: whoiam__p4;
-    display: grid;
-    align-items: flex-end;
-    margin-left: 2%;
-    animation-delay: 8s;  
-
-}
-
-.whoiam__p5 {
-    grid-area: whoiam__p5;
-    display: grid;
-    justify-content: start;
-    align-content: flex-end;
-    margin-bottom: 0%;
-    animation-delay: 9s;  
-
-}
-
-.whoiam__p1, .whoiam__p2, .whoiam__p3, .whoiam__p4, .whoiam__p5{
-  opacity: 0;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;  
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    .whoiam__imgmobil {
+        display: none;
     }
+
+
+    .whoiam__h2 {
+        width: 17vw;
+        margin-left: 48%;
+        margin-bottom: 0;
+        margin-top: 18vh;
+        padding-top: 0.5vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 3vw;
+        text-align: center;
+        background-color: #2FC97F;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+    }
+
+    .whoiam__p1,
+    .whoiam__p2,
+    .whoiam__p3,
+    .whoiam__p4 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 47px;
+        text-align: center;
+    }
+
+    .whoiam__p5 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 2.5vw;
+        line-height: 59xp;
+        text-align: center;
+    }
+
+    .whoiam__img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .whoiam__container {
+        display: grid;
+        grid-template-areas: "whoiam__container2 whoiam__container3";
+        grid-template-columns: 1.5fr 1fr;
+        padding-top: 1%;
+    }
+
+    .whoiam__container2 {
+        grid-area: whoiam__container2;
+        display: grid;
+        grid-template-areas: "whoiam__p1 whoiam__p2"
+            "whoiam__img whoiam__img ";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10% 1fr;
+    }
+
+    .whoiam__container3 {
+        grid-area: whoiam__container3;
+        display: grid;
+        grid-template-areas: "."
+            "whoiam__p3"
+            "whoiam__p4"
+            "whoiam__p5"
+            ".";
+        grid-template-rows: 0.5fr 1fr 1.1fr 1fr 1fr;
+        max-height: 120vh;
+    }
+
+    .whoiam__p1 {
+        grid-area: whoiam__p1;
+        margin-top: 30%;
+        display: grid;
+        justify-content: center;
+        animation-delay: 5s;
+    }
+
+    .whoiam__p2 {
+        grid-area: whoiam__p2;
+        margin-top: 6%;
+        animation-delay: 6s;
+
+    }
+
+    .whoiam__img {
+        grid-area: whoiam__img;
+    }
+
+    .whoiam__p3 {
+        grid-area: whoiam__p3;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__p4 {
+        grid-area: whoiam__p4;
+        display: grid;
+        align-items: flex-end;
+        margin-left: 2%;
+        animation-delay: 8s;
+
+    }
+
+    .whoiam__p5 {
+        grid-area: whoiam__p5;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        margin-bottom: 0%;
+        animation-delay: 9s;
+
+    }
+
+    .whoiam__p1,
+    .whoiam__p2,
+    .whoiam__p3,
+    .whoiam__p4,
+    .whoiam__p5 {
+        opacity: 0;
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .whoiam__img {
+        display: none;
+    }
+
+    .whoiam__h2 {
+        width: 37vw;
+        height: 6vh;
+        margin-left: 42vw;
+        margin-bottom: 0.5vh;
+        margin-top: 18vh;
+        padding-top: 1vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 7vw;
+        text-align: center;
+        background-color: #F389DB99;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+    }
+
+    .whoiam__container {
+        display: grid;
+        grid-template-areas: "."
+            "whoiam__p3"
+            "whoiam__p4"
+            "whoiam__p5"
+            ".";
+    }
+}
