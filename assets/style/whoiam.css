@@ -175,9 +175,9 @@
     .whoiam__h2 {
         width: 37vw;
         height: 6vh;
-        margin-left: 42vw;
+        margin-left: 32vw;
         margin-bottom: 0.5vh;
-        margin-top: 18vh;
+        margin-top: 8vh;
         padding-top: 1vh;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
@@ -194,7 +194,9 @@
             "whoiam__imgmobil whoiam__p1mobil"
             "whoiam__imgmobil2 whoiam__p2mobil";
         grid-template-columns: 10% 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 0.7fr 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 
     .whoiam__container3 {
@@ -204,14 +206,16 @@
             ". ."
             "whoiam__p5 whoiam__p5";
         grid-template-columns: 10% 1fr;
-        grid-template-rows: 1fr 1fr 1fr 2fr;
+        grid-template-rows: 1fr 1fr 0.2fr 2fr;
+        gap: 1rem;
     }
 
     .whoiam__p1mobil {
         grid-area: whoiam__p1mobil;
         display: grid;
         justify-content: center;
-        align-content: flex-start;
+        align-self: center;
+        margin: 0%;
 
     }
 
@@ -219,26 +223,27 @@
         grid-area: whoiam__p2mobil;
         display: grid;
         justify-content: center;
-        align-content: flex-start;
+        align-self: center;
+        margin: 0%;
 
     }
 
     .whoiam__p3 {
         grid-area: whoiam__p3;
-        margin-top: 0%;
         display: grid;
-        justify-content: start;
-        align-content: flex-end;
-        animation-delay: 7s;
+        ;
+        justify-content: center;
+        align-self: center;
+        margin: 0%;
     }
 
     .whoiam__p4 {
         grid-area: whoiam__p4;
-        margin-top: 0%;
         display: grid;
-        justify-content: start;
-        align-content: flex-end;
-        animation-delay: 7s;
+        ;
+        justify-content: center;
+        align-self: center;
+        margin: 0%;
     }
 
     .whoiam__p5 {
@@ -254,14 +259,14 @@
         grid-area: whoiam__imgmobil;
         display: grid;
         justify-self: flex-end;
-        align-self: flex-start;
+        align-self: center;
     }
 
     .whoiam__imgmobil2 {
         grid-area: whoiam__imgmobil2;
         display: grid;
         justify-self: flex-end;
-        align-self: flex-start;
+        align-self: center;
     }
 
     .whoiam__p1mobil,
@@ -270,8 +275,21 @@
     .whoiam__p4 {
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
-        font-size: 5vw;
+        font-size: 4.9vw;
         line-height: 6vw;
+    }
+
+    .whoiam__p5 {
+        grid-area: whoiam__p5;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 5.3vw;
+        line-height: 6vw;
+        text-align: center;
     }
 
 
