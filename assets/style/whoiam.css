@@ -4,6 +4,10 @@
         display: none;
     }
 
+    .whoiam__imgmobil2 {
+        display: none;
+    }
+
 
     .whoiam__h2 {
         width: 17vw;
@@ -168,12 +172,87 @@
         border-radius: 50px;
     }
 
-    .whoiam__container {
+    .whoiam__container2 {
         display: grid;
-        grid-template-areas: "whoiam__imgmobil "
-            "whoiam__imgmobil"
-            "whoiam__imgmobil"
-            "whoiam__imgmobil"
-            ".";
+        grid-template-areas: ". ."
+            "whoiam__imgmobil whoiam__p1"
+            "whoiam__imgmobil2 whoiam__p2";
+        grid-template-columns: 10% 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
+
+    .whoiam__container3 {
+        display: grid;
+        grid-template-areas: "whoiam__imgmobil whoiam__p3"
+            "whoiam__imgmobil2 whoiam__p4"
+            ". ."
+            "whoiam__p5 whoiam__p5";
+        grid-template-columns: 10% 1fr;
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+    }
+
+    .whoiam__p1 {
+        grid-area: whoiam__p1;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__p2 {
+        grid-area: whoiam__p2;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__p3 {
+        grid-area: whoiam__p3;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__p4 {
+        grid-area: whoiam__p4;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__p5 {
+        grid-area: whoiam__p5;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__imgmobil {
+        grid-area: whoiam__imgmobil;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+    .whoiam__imgmobil2 {
+        grid-area: whoiam__imgmobil2;
+        margin-top: 0%;
+        display: grid;
+        justify-content: start;
+        align-content: flex-end;
+        animation-delay: 7s;
+    }
+
+
 }
