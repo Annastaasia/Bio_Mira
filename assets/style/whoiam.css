@@ -170,10 +170,10 @@
 
     .whoiam__container {
         display: grid;
-        grid-template-areas: "."
-            "whoiam__p3"
-            "whoiam__p4"
-            "whoiam__p5"
+        grid-template-areas: "whoiam__imgmobil "
+            "whoiam__imgmobil"
+            "whoiam__imgmobil"
+            "whoiam__imgmobil"
             ".";
     }
 }
