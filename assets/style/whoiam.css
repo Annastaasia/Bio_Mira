@@ -161,8 +161,8 @@
 
 @media screen and (max-width: 600px) {
     .whoiam__img {
-        display: none;
-    }
+    display: none;
+}
 
     .whoiam__p1 {
         display: none;
