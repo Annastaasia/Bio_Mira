@@ -233,7 +233,8 @@
     <script src="./assets/script/lessons_conspect.js"></script>
     <script src="./assets/script/mainpage.js"></script>
     <script src="./assets/script/stendup.js"></script>
-    <script type="text/javascript">$(document).ready(function () {
+    <script type="text/javascript">
+        $(document).ready(function () {
             $("#header, #footer, #mainpage").on("click", "a", function (event) {
                 event.preventDefault();
                 var id = $(this).attr('href'),
