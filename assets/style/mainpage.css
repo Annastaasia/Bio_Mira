@@ -90,6 +90,7 @@
   .stendup {
     position: fixed;
     bottom: 7vh;
+    left: 2vw;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -128,8 +129,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  
-   #stendup {
+
+  #stendup {
     position: fixed;
     z-index: 2;
     margin-top: 65vh;
@@ -140,6 +141,7 @@
     height: 12vh;
     margin-left: 1vw;
   }
+
   .mainpage {
     width: 100vw;
     padding-left: 5vw;
