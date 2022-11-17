@@ -75,7 +75,7 @@
     animation-delay: 0s;
   }
 
-  #stendup {
+  /*.stendup {
     position: fixed;
     z-index: 2;
     margin-top: 65vh;
@@ -85,6 +85,31 @@
     width: 12vw;
     height: 12vh;
     margin-left: 1vw;
+  }*/
+
+  .stendup {
+    position: fixed;
+    bottom: 7vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 12vh;
+  }
+
+  .stendup::before {
+    content: "";
+    width: 12vw;
+    height: 12vh;
+    margin-left: 1vw;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("/assets/images/whoiam/stendup.svg");
+  }
+
+  .stendup_2 {
+    display: none;
   }
 
   .mainpage__photo {
