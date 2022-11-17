@@ -110,7 +110,7 @@
     margin-left: 5vw;
     background: transparent no-repeat center center;
     background-size: 100% 100%;
-    background-image: url("/assets/images/whoiam/stendup.svg");
+    background-image: url('../images/whoiam/stendup.svg');
   }
 
   .stendup_2 {
