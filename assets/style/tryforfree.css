@@ -109,6 +109,9 @@
     text-decoration: none;
 }}
 
+
+
+
 @media screen and (max-width: 600px) {
     .tryforfree__container{
         padding-left: 5vw;
@@ -116,7 +119,7 @@
         display: grid;
         margin-top:10vh;
         grid-template-columns: 90vw;
-        grid-template-rows: 15vh 25vh 25vh 25vh 30vh;
+        grid-template-rows: 15vh 22vh 20vh 18vh 20vh;
     
     }
     .tryforfree__text1, .tryforfree__text2, .tryforfree__text3{
@@ -124,8 +127,8 @@
     }
     .tryforfree__h2 {
         width: 80vw;
-        height: 8vh;
-        margin-left: 7vw;
+        height: 7vh;
+        margin-left: 5vw;
         margin-bottom: 0.5vh;
         margin-top: 8vh;
         padding-top: 1vh;
@@ -143,7 +146,7 @@
         padding-left: 5vw;
         background-image: url('../images/tryforfree/fon1.png');
         background-repeat: no-repeat;
-        background-position:30% 95%; 
+        background-position:30% 72%; 
         background-size: 20%;
         text-decoration: none;
         text-align: left;
@@ -161,7 +164,7 @@
         text-align: center;
         background-image: url(../images/tryforfree/fon2.png);
         background-repeat: no-repeat;
-        background-position:75% 0%; 
+        background-position:75% 23%; 
         background-size: 30%;
         text-decoration: none;
         text-align: right;
@@ -179,7 +182,7 @@
         font-size: 30px;
         background-image: url(../images/tryforfree/fon2.png);
         background-repeat: no-repeat;
-        background-position:20% 50%; 
+        background-position:20% 60%; 
         background-size: 23%;
         text-decoration: none;
         color:black;

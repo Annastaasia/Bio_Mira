@@ -103,13 +103,25 @@
 }
 
 @media screen and (max-width: 600px) {
+  
+   #stendup {
+    position: fixed;
+    z-index: 2;
+    margin-top: 65vh;
+  }
+
+  .stendup {
+    width: 12vw;
+    height: 12vh;
+    margin-left: 1vw;
+  }
   .mainpage {
     width: 100vw;
     padding-left: 5vw;
     padding-top: 10vh;
     display: grid;
     grid-template-columns: 95vw;
-    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-rows: 20vh 40vh 10vh;
     margin: 0;
   }
 
@@ -127,9 +139,9 @@
   }
 
   .mainpage__button {
-    margin-top: 10vh;
-    width: 80vw;
-    height: 35%;
+    margin-top: 5vh;
+    width: 90vw;
+    height: 80%;
     grid-row: 3/4;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
@@ -138,7 +150,7 @@
     border: none;
     border-radius: 50px;
     color: white;
-    margin-left: 4vw;
+
 
   }
 

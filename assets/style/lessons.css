@@ -1,3 +1,4 @@
+@media screen and (min-width: 601px) {
 .lessons {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -7,19 +8,18 @@
     text-align: center;
 }
 
-.lessons h2 {
-    display: grid;
-    align-items: center;
-    grid-column: 1/3;
-    grid-row: 1/2;
+.lessons__h2 {
+    width:40vw;
+    margin-left: 30vw;
+    margin-bottom: 0;
+    padding-top: 1vh;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 300%;
-    background-image: url(../images/lessons/fon_h2.png);
-    background-repeat: no-repeat;
-    background-position-x: 51%;
-    background-position-y: 50%;
-    background-size: 40%;
+    font-size: 55px;
+    color:white;
+    text-align: center;
+    background-color: #2FC97F;
+    border-radius: 50px;
     color: white;
 
 }
@@ -160,57 +160,111 @@
 .button_right{
     padding-right: 30%;
 }
-
-/*.lessons2 .teoria .conspect_img {
-    display: grid;
-    width: 20vw;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    max-width: 100%;
 }
 
-.lessons2 .teoria .conspect {
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .lessons_img{
+        display: none;
+    }
+    .teoria{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+        row-gap: 6vh;
+        background-image: url('../images/lessons/conspect_fon.png');
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position-y:40%;
+        background-position-x:20%;
+
+    
+    }
+.teoria__container{
     display: grid;
     justify-content: center;
-    grid-column: 2/3;
+}
+
+.teoria h2{
+    text-align: center;
+
+    padding-right: 5vw;
+}
+    .conspect_img{
+        width: 70%;
+    margin-left: 12vw;
+    }
+    .button_left, .button_right{
+        display: none;
+    }
+
+    .video{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+        row-gap: 6vh;
+        justify-content: center;
+    }
+    .video h2{
+        text-align: center;
+
+    }
+    .video__button{
+        display: none;
+    }
+    .lessons__ul{
+        display: grid;
+        padding-top: 2vh;
+        padding-left: 0px;
+        grid-template-columns: 90vw;
+        grid-template-rows: repeat(4,8vh);
+        list-style-type: none;
+        align-content: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        text-align: center;
+    }
+    .lessons_text {
+        display: grid;
+        text-decoration: none;
+
+    }
+
+    .lessons__h2{
+        width: 75vw;
+        height: 6vh;
+        margin-left: 12vw;
+        margin-bottom: 0.5vh;
+        margin-top: 8vh;
+        padding-top: 1vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 7vw;
+        text-align: center;
+        background-color: #2FC97F;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+    }
+    .mob__container{
+        display: grid;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        grid-template-columns: 90vw;
+        grid-template-rows: 100vh 35vh;
+}
+.lessons2{
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 100%;
+}
+.lessons{
     grid-row: 2/3;
 }
-
-
-.lessons2 .teoria .button_left {
-    display: grid;
-    justify-self: end;
-    justify-self: end;
-    justify-items: end;
-    align-content: center;
-    grid-column: 1/2;
-    width: 25vh;
-    grid-row: 2/3;
 }
-.lessons2 .teoria .button_left a{
-    justify-content: end;
-    justify-self: end;
-    justify-items: end;
-}
-
-.lessons2 .teoria .button_left a img {
-    display: grid;
-    width: 45%;
-    justify-content: end;
-    justify-self: end;
-    justify-items: end;
-
-}
-.lessons2 .teoria .button_right {
-    display: grid;
-    align-items: center;
-
-    width: 25vh;
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
-
-.lessons2 .teoria .button_right a img {
-    width: 20%;
-} */
-
