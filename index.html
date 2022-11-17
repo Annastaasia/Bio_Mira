@@ -39,14 +39,14 @@
         </div>
     </header>
     <main>
-        <section>
+        <section id="mainpage">
             <div class="mainpage">
                 <h1 class="mainpage__text">Мы просто сделаем это: возьмем и подготовимся к ЕГЭ на <span>80+</span>
                 </h1><button class="mainpage__button">Попробовать бесплатно</button>
                 <div class="mainpage__photodiv"><img src="./assets/images/mainpage/mira.png" alt="фото Миры"
                         class="mainpage__photo"></div>
 
-                <div id="stendup"><a href='#' target='_blank'><img class="stendup"
+                <div id="stendup"><a href='#mainpage'><img class="stendup"
                             src='./assets/images/whoiam/stendup.svg' alt='Кнопка «button»' /></a></div>
             </div>
         </section>
@@ -88,16 +88,20 @@
         </section>
         <section class="lessons2">
             <div class="video">
-                <h2>Фрагменты видео уроков</h2>
+                <h2>Фрагменты видеоуроков</h2>
+                <div class="video__div"><video class="video__video"></video></div>
+                <button class="video__button">Следующий</button>
             </div>
             <div class="teoria">
                 <h2>Ёмкие и красочные конспекты</h2>
-                <div class="button_left" onclick="button_left()"><a><img src="./assets/images/lessons/botton_left.png"
-                            alt="Влево"></a></div>
+                <div class="teoria__container">
+                <div class="button_left"><a><img src="./assets/images/lessons/botton_left.png"
+                            alt="Влево" onclick="button_left()"></a></div>
                 <div class="conspect"><img class="conspect_img" id="conspect"
                         src="./assets/images/lessons/conspect1.jpeg" alt="Примеры конспектов"></div>
-                <div class="button_right" onclick="button_right()"><a><img
-                            src="./assets/images/lessons/botton_right.png" alt="Вправо"></a></div>
+                <div class="button_right"><a><img
+                    onclick="button_right()" src="./assets/images/lessons/botton_right.png" alt="Вправо"></a></div>
+                </div>
             </div>
         </section>
         <section>
