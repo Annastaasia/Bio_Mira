@@ -27,22 +27,23 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="header">
             <div class="header__logo">Bio with Mira</div>
             <div class="header__container">
-                <div class="header__item1"><a href="#" class="link1">Кто я?</a></div>
-                <div class="header__item2"><a href="#" class="link1">Занятия со мной</a></div>
-                <div class="header__item1"><a href="#" class="link1">Цены</a></div>
+                <div class="header__item1"><a href="#whoiam" class="link1">Кто я?</a></div>
+                <div class="header__item2"><a href="#lessons" class="link1">Занятия со мной</a></div>
+                <div class="header__item1"><a href="#price" class="link1">Цены</a></div>
                 <div class="header__item4"><a href="#" class="link1">Успехи учеников</a></div>
                 <div class="header__item5"><a href="#" class="link1">Меню</a></div>
             </div>
         </div>
     </header>
     <main>
-        <section id="mainpage">
-            <div class="mainpage">
+        <section>
+            <div class="mainpage" id="mainpage">
                 <h1 class="mainpage__text">Мы просто сделаем это: возьмем и подготовимся к ЕГЭ на <span>80+</span>
-                </h1><button class="mainpage__button">Попробовать бесплатно</button>
+                </h1>
+                <a href="#tryforfree"><button class="mainpage__button">Попробовать бесплатно</button></a>
                 <div class="mainpage__photodiv"><img src="./assets/images/mainpage/mira.png" alt="фото Миры"
                         class="mainpage__photo"></div>
 
@@ -50,7 +51,7 @@
                             src='./assets/images/whoiam/stendup.svg' alt='Кнопка «button»' /></a></div>
             </div>
         </section>
-        <section class="whoiam">
+        <section class="whoiam" id="whoiam">
             <h2 class="whoiam__h2">Кто я?</h2>
             <div class="whoiam__container">
                 <div class="whoiam__container2"><img src="./assets/images/whoiam/Ellipse.svg" alt="параграф"
@@ -73,7 +74,7 @@
 
         </section>
 
-        <section class="lessons">
+        <section class="lessons" id="lessons">
             <h2>Занятия со мной</h2>
             <div class="lessons_img" id="lessons_img"><img src="./assets/images/lessons/platforma.png"
                     alt="Платформа с теорией"></div>
@@ -104,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="price">
             <h2 class="price__h2">Цены</h2>
             <div class="container-fluid price-card">
                 <div class="d-flex row justify-content-evenly text-center rounded-5">
@@ -185,7 +186,7 @@
                     class="price__button btn-dark rounded-pill text-white">Записаться</button></div>
         </section>
         <section>
-            <div class="tryforfree">
+            <div class="tryforfree" id="tryforfree">
                 <div class="tryforfree__container">
                     <h2 class="tryforfree__h2">Попробуй бесплатно</h2>
                     <p class="tryforfree__text1"><a href="#" class="link2">Бесплатный онлайн курс<br>&nbsp &nbsp
@@ -207,12 +208,14 @@
         </section>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer" id="footer">
             <div class="footer__container">
                 <div class="footer__container1">
-                    <p href="#" class="footer__logo">Bio with Mira</p><a href="#" class="footer__a1 link3">Кто
-                        я?</a><a href="#" class="footer__a2 link3">Занятия со мной</a><a href="#"
-                        class="footer__a3 link3">Цены</a><a href="#" class="footer__a4 link3">Успехи учеников</a>
+                    <p class="footer__logo">Bio with Mira</p>
+                    <a href="#whoiam" class="footer__a1 link3">Кто я?</a>
+                    <a href="#lessons" class="footer__a2 link3">Занятия со мной</a>
+                    <a href="#price" class="footer__a3 link3">Цены</a>
+                    <a href="#" class="footer__a4 link3">Успехи учеников</a>
                 </div>
                 <div class="footer__container2"><a class="footer__a5 link3"
                         href="https://www.flaticon.com/free-icons/cell" title="cell icons">Cell icons created by
@@ -234,6 +237,17 @@
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
     <script src="./assets/script/lessons_conspect"></script>
+    <script src="./assets/script/mainpage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $("#header, #footer, #mainpage").on("click","a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 3000);
+        });
+      });
+      </script>
 </body>
 
 </html>

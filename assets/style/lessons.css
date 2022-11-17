@@ -146,6 +146,9 @@
 .button_left img, .button_right img{
     width: 40%;
 }
+.button_left img:hover, .button_right img:hover{
+    width: 45%;
+}
 .button_left, .button_right
 {
     display: grid;
