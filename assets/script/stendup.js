@@ -43,5 +43,3 @@ const btnUp= {
 btnUp.addEventListener();
 
 
-/*<div id="stendup"><a href='#mainpage'><img class="stendup" src='./assets/images/whoiam/stendup.svg'
-    alt='Кнопка «button»' /></a></div>*/
