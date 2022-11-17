@@ -1,4 +1,4 @@
-$(window).scroll(function (event) {
+/*$(window).scroll(function (event) {
     var top = $(window).scrollTop();
      if(top >= 100){
         document.querySelector('#stendup').style.position = 'fixed';
@@ -7,4 +7,4 @@ $(window).scroll(function (event) {
      } else {
         document.querySelector('.stendup').style.display = 'none';
      }
-});
+}); */
