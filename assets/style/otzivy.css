@@ -61,5 +61,10 @@
 .otzivy__keys1_image, .otzivy__keys2_image, .otzivy__keys3_image{
     width: 100%;
 }
-
+.otzivy__buttonleft, .otzivy__buttonright{
+    width: 85%;
+}
+.otzivy__buttonleft:hover, .otzivy__buttonright:hover{
+    width: 95%;
+}
 }
