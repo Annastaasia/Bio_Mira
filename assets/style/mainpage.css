@@ -44,7 +44,7 @@
 
   .mainpage__button:hover {
     font-size: 31px;
-    color:white;
+    color: white;
   }
 
   .mainpage__photodiv {
@@ -79,17 +79,30 @@
     animation-delay: 0s;
   }
 
-  /*.stendup {
+  #telegram {
     position: fixed;
     z-index: 2;
     margin-top: 65vh;
+    right: 10vw;
   }
 
-  .stendup {
+  .telegram {
     width: 12vw;
     height: 12vh;
-    margin-left: 1vw;
-  }*/
+  }
+
+  #whatsapp {
+    position: fixed;
+    z-index: 2;
+    margin-top: 65vh;
+    right: 1vw;
+  }
+
+  .whatsapp {
+    width: 12vw;
+    height: 12vh;
+
+  }
 
   .stendup {
     position: fixed;
