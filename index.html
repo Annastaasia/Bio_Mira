@@ -38,8 +38,10 @@
                 
             </nav>
             <nav class="header__mobilecontainer">
-                <div class="header__item5"><a href="#" class="link1">Меню</a></div>
-                <ul>
+                <div class="header__logo_mobile">Bio with Mira</div>
+                <div class="header__item5"><a href="#" class="link" onclick="openNav()">Меню</a></div>
+                <ul id="ul">
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
                 <li class="header__item1"><a href="#whoiam" class="link1">Кто я?</a></li>
                 <li class="header__item2"><a href="#lessons" class="link1">Занятия со мной</a></li>
                 <li class="header__item3"><a href="#price" class="link1">Цены</a></li>
@@ -86,9 +88,9 @@
                 </div>
             </div>
         </section>
-        <h2 class="lessons__h2">Занятия со мной</h2>
+        <h2 class="lessons__h2" id="lessons">Занятия со мной</h2>
         <div class="mob__container">
-            <section class="lessons" id="lessons">
+            <section class="lessons" >
                 <div class="lessons_img" id="lessons_img"><img src="./assets/images/lessons/platforma.png"
                         alt="Платформа с теорией"></div>
                 <div class="lessons_text">
@@ -282,6 +284,7 @@
     <script src="./assets/script/stendup.js"></script>
     <script src="./assets/script/animation.js"></script>
     <script src="./assets/script/otzivy.js"></script>
+    <script src="./assets/script/menu.js"></script>
 </body>
 
 </html>
