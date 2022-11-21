@@ -60,7 +60,13 @@ border-radius: 50px;
 .header__container{
     padding-top: 1vh;
     display:flex;
+}
+.header__mobilecontainer{
+    display: none;
 }}
+
+
+
 @media screen and (max-width: 600px) {
 .header__logo, .header__container{
     display: none;
