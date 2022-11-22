@@ -187,7 +187,7 @@
 
   .mainpage__button {
     margin-top: 5vh;
-    padding-top:2vh;
+    padding-top: 2vh;
     width: 90vw;
     height: 80%;
     grid-row: 3/4;
@@ -206,7 +206,7 @@
 
   .mainpage__button:active {
     font-size: 27px;
-    color:white;
+    color: white;
   }
 
   .mainpage__photodiv {
