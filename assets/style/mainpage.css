@@ -187,12 +187,15 @@
 
   .mainpage__button {
     margin-top: 5vh;
+    padding-top:2vh;
     width: 90vw;
     height: 80%;
     grid-row: 3/4;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    text-align: center;
+    text-decoration: none;
     background-color: #2FC97F;
     border: none;
     border-radius: 50px;
@@ -201,8 +204,9 @@
 
   }
 
-  .mainpage__button:hover {
-    font-size: 31px;
+  .mainpage__button:active {
+    font-size: 27px;
+    color:white;
   }
 
   .mainpage__photodiv {
