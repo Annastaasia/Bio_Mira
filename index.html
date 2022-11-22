@@ -35,19 +35,19 @@
                 <div class="header__item2"><a href="#lessons" class="link1">Занятия со мной</a></div>
                 <div class="header__item3"><a href="#price" class="link1">Цены</a></div>
                 <div class="header__item4"><a href="#otzivy" class="link1">Успехи учеников</a></div>
-                
+
             </nav>
             <nav class="header__mobilecontainer">
                 <div class="header__logo_mobile">Bio with Mira</div>
                 <div class="header__item5"><a href="#" class="link" onclick="openNav()">Меню</a></div>
                 <ul id="ul">
-                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
-                <li class="header__item1"><a href="#whoiam" class="link1">Кто я?</a></li>
-                <li class="header__item2"><a href="#lessons" class="link1">Занятия со мной</a></li>
-                <li class="header__item3"><a href="#price" class="link1">Цены</a></li>
-                <li class="header__item4"><a href="#otzivy" class="link1">Успехи учеников</a></li>
+                    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                    <li class="header__item1"><a href="#whoiam" class="link1">Кто я?</a></li>
+                    <li class="header__item2"><a href="#lessons" class="link1">Занятия со мной</a></li>
+                    <li class="header__item3"><a href="#price" class="link1">Цены</a></li>
+                    <li class="header__item4"><a href="#otzivy" class="link1">Успехи учеников</a></li>
 
-            </ul>
+                </ul>
             </nav>
         </div>
     </header>
@@ -88,9 +88,10 @@
                 </div>
             </div>
         </section>
-        <h2 class="lessons__h2" id="lessons">Занятия со мной</h2>
-        <div class="mob__container">
-            <section class="lessons" >
+        <section class="lessons">
+            <h2 class="lessons__h2" id="lessons">Занятия со мной</h2>
+            <div class="mob__container">
+
                 <div class="lessons_img" id="lessons_img"><img src="./assets/images/lessons/platforma.png"
                         alt="Платформа с теорией"></div>
                 <div class="lessons_text">
@@ -102,25 +103,66 @@
                     </ul>
                 </div>
 
-            </section>
-            <section class="lessons2">
-                <div class="video">
-                    <h2>Фрагменты видеоуроков</h2>
-                    <div class="video__div"><video class="video__video"></video></div><button
-                        class="video__button">Следующий</button>
+        </section>
+        <section class="lessons2">
+            <div class="video">
+                <h2>Фрагменты видеоуроков</h2>
+                <div class="video__div"><video class="video__video"></video></div><button
+                    class="video__button">Следующий</button>
+            </div>
+            <div class="teoria">
+                <h2>Ёмкие и красочные конспекты</h2>
+                <div class="teoria__container">
+                    <div class="button_left"><a><img src="./assets/images/lessons/botton_left.png" alt="Влево"
+                                onclick="button_left()"></a></div>
+                    <div class="conspect"><img class="conspect_img" id="conspect"
+                            src="./assets/images/lessons/conspect1.jpeg" alt="Примеры конспектов"></div>
+                    <div class="button_right"><a><img onclick="button_right()"
+                                src="./assets/images/lessons/botton_right.png" alt="Вправо"></a></div>
                 </div>
-                <div class="teoria">
-                    <h2>Ёмкие и красочные конспекты</h2>
-                    <div class="teoria__container">
-                        <div class="button_left"><a><img src="./assets/images/lessons/botton_left.png" alt="Влево"
-                                    onclick="button_left()"></a></div>
-                        <div class="conspect"><img class="conspect_img" id="conspect"
-                                src="./assets/images/lessons/conspect1.jpeg" alt="Примеры конспектов"></div>
-                        <div class="button_right"><a><img onclick="button_right()"
-                                    src="./assets/images/lessons/botton_right.png" alt="Вправо"></a></div>
+            </div>
+
+            <div class="teoria__mobil">
+                <h2>Ёмкие и красочные конспекты</h2>
+                <div id="carouselExampleIndicators" class="carousel slide teoria__container__mobil"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active bg-success" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="bg-success"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="bg-success"></button>
                     </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active conspect">
+                            <img src="./assets/images/lessons/conspect1.jpeg" class="d-block w-90 conspect_img"
+                                alt="Примеры конспектов">
+                        </div>
+                        <div class="carousel-item conspect">
+                            <img src="./assets/images/lessons/conspect2.jpeg" class="d-block w-90 conspect_img"
+                                alt="Примеры конспектов">
+                        </div>
+                        <div class="carousel-item conspect">
+                            <img src="./assets/images/lessons/conspect3.jpeg" class="d-block w-90 conspect_img"
+                                alt="Примеры конспектов">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicatorsDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden ">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
                 </div>
-            </section>
+            </div>
+
+
+        </section>
         </div>
         <section id="price">
             <h2 class="price__h2">Цены</h2>
@@ -206,22 +248,28 @@
             <div class="otzivy" id="otzivy">
                 <h2 class="otzivy__h2">Успехи учеников</h2>
                 <div class="otzivy__container">
-                <div><a><img src="./assets/images/otzivy/button_left.png" class="otzivy__buttonleft" alt="Влево" onclick="leftClick()"></a></div>
-                <div class="otzivy__keys1"><img src="./assets/images/otzivy/keys1.JPG" alt="первый отзыв" id="keys1" class="otzivy__keys1_image"></div>
-                <div class="otzivy__keys2"><img src="./assets/images/otzivy/keys2.jpg" alt="второй отзыв" id="keys2" class="otzivy__keys2_image"></div>
-                <div class="otzivy__keys3"><img src="./assets/images/otzivy/keys3.jpg" alt="третий отзыв" id="keys3" class="otzivy__keys3_image"></div>
-                <div><a><img src="./assets/images/otzivy/button_right.png" class="otzivy__buttonright" alt="Вправо" onclick="rightClick()"></a></div>
+                    <div><a><img src="./assets/images/otzivy/button_left.png" class="otzivy__buttonleft" alt="Влево"
+                                onclick="leftClick()"></a></div>
+                    <div class="otzivy__keys1"><img src="./assets/images/otzivy/keys1.JPG" alt="первый отзыв" id="keys1"
+                            class="otzivy__keys1_image"></div>
+                    <div class="otzivy__keys2"><img src="./assets/images/otzivy/keys2.jpg" alt="второй отзыв" id="keys2"
+                            class="otzivy__keys2_image"></div>
+                    <div class="otzivy__keys3"><img src="./assets/images/otzivy/keys3.jpg" alt="третий отзыв" id="keys3"
+                            class="otzivy__keys3_image"></div>
+                    <div><a><img src="./assets/images/otzivy/button_right.png" class="otzivy__buttonright" alt="Вправо"
+                                onclick="rightClick()"></a></div>
+                </div>
+                <div class="otzivy__container2">
+                    <a href="#" class="otzivy__link1">Видео-отзывы на YouTube</a>
+                    <a href="https://vk.com/album-215271032_285644111" class="otzivy__link2">Еще больше отзывов в VK</a>
+                </div>
             </div>
-            <div class="otzivy__container2">
-                <a href="#" class="otzivy__link1">Видео-отзывы на YouTube</a>
-                <a href="https://vk.com/album-215271032_285644111" class="otzivy__link2">Еще больше отзывов в VK</a>
-            </div>
-        </div>
         </section>
         <section>
             <div class="otzivy__mobilecontainer">
                 <a href="#" class="otzivy__link1">Видео-отзывы на YouTube</a>
-                <div class="otzivy__keys1"><img src="./assets/images/otzivy/keys1.JPG" alt="первый отзыв" id="mobilekeys" class="otzivy__keys1_image"></div>
+                <div class="otzivy__keys1"><img src="./assets/images/otzivy/keys1.JPG" alt="первый отзыв"
+                        id="mobilekeys" class="otzivy__keys1_image"></div>
                 <a href="https://vk.com/album-215271032_285644111" class="otzivy__link2">Еще больше отзывов в VK</a>
             </div>
         </section>
