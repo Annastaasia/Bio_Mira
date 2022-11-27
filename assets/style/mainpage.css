@@ -145,6 +145,8 @@
   }
 }
 
+
+
 @media screen and (max-width: 600px) {
 
   .telegram {
@@ -168,7 +170,7 @@
     padding-top: 10vh;
     display: grid;
     grid-template-columns: 95vw;
-    grid-template-rows: 20vh 40vh 10vh;
+    grid-template-rows: 11vh 50vh 10vh;
     margin: 0;
   }
 
@@ -186,7 +188,8 @@
   }
 
   .mainpage__button {
-    margin-top: 5vh;
+    display: grid;
+    align-self: flex-end;
     padding-top: 2vh;
     width: 90vw;
     height: 80%;

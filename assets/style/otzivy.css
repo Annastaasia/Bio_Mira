@@ -99,6 +99,8 @@
     padding-left: 5vw;
     padding-right: 5vw;
     grid-template-rows: 10vh 80vh 10vh;
+   justify-content: center;
+   align-items: center;
 }
 .otzivy__link1,.otzivy__link2 {
     display: grid;
@@ -123,11 +125,11 @@
     color:white;
 }
 .otzivy__keys1{
-    display: grid;
-    align-self: center;
+    padding-left: 5vw;
+    width: 95%;
 }
 .otzivy__keys1_image{
-   
+
     width:100%;
     
 }
