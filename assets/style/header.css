@@ -121,6 +121,7 @@ border-radius: 50px;
         font-weight: 500;
         font-size: 5.5vw;
         overflow-x: hidden; /* Disable horizontal scroll */
+        opacity: 0;
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
