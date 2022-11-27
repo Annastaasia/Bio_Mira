@@ -119,7 +119,7 @@
         display: grid;
         margin-top:10vh;
         grid-template-columns: 90vw;
-        grid-template-rows: 15vh 22vh 20vh 18vh 20vh;
+        grid-template-rows: 10vh 22vh 20vh 18vh 20vh;
     
     }
     .tryforfree__text1, .tryforfree__text2, .tryforfree__text3{
@@ -130,7 +130,7 @@
         height: 7vh;
         margin-left: 5vw;
         margin-bottom: 0.5vh;
-        margin-top: 8vh;
+        margin-top: 2vh;
         padding-top: 1vh;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
