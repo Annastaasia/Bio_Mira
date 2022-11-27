@@ -23,13 +23,13 @@
     grid-row:1/2;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.89vw;
     color:white;
 }
 .footer__a1, .footer__a2, .footer__a3, .footer__a4{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.28vw;
     color:white;
 }
 .footer__container2{
@@ -42,7 +42,7 @@
 .footer__a5, .footer__a6, .footer__a7, .footer__p1, .footer__p2{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 13px;
+    font-size:  1.28vw;
     color:white;
 }
 .link3{

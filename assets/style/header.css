@@ -6,7 +6,7 @@ padding-right: 1vw;;
 padding-top:1vh;
 margin-left: 2vw;
 background-color: #2FC97F;
-font-size: 24px;
+font-size: 1.82vw;
 font-family: 'Raleway', sans-serif;
 font-weight: 600;
 text-align: center;
@@ -26,7 +26,7 @@ border-radius: 50px;
     width: 8vw;
 }
 .header__item1:hover, .header__item2:hover, .header__item3:hover, .header__item4:hover{
-    font-size: 26px;
+    font-size: 1.97vw;
     
 }
 .header__item2{
@@ -37,14 +37,14 @@ border-radius: 50px;
     width:7.9vw;
 }
 .header__item4{
-    width:18vw;
+    width:20vw;
 }
 .header__item5{
     display: none;
 }
 .header__logo{
     width:30vw;
-    font-size: 44px;
+    font-size: 3.33vw;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }

@@ -7,7 +7,7 @@
     margin-top: 15vh;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 4.17vw;
     color:white;
     text-align: center;
     background-color: #2FC97F;
@@ -47,7 +47,7 @@
     padding-top: 2vh;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.51vw;
     color:white;
     text-decoration: none;
     background-color: #F389DB99;
@@ -55,7 +55,7 @@
 
 }
 .otzivy__link1:hover,.otzivy__link2:hover {
-    font-size: 22px;
+    font-size:1.66vw;
     color: white;
 }
 .otzivy__keys1_image, .otzivy__keys2_image, .otzivy__keys3_image{
