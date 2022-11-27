@@ -100,7 +100,7 @@ border-radius: 50px;
     }
     .header__logo_mobile{
         justify-self: flex-start;
-        font-size: 30px;
+        font-size: 7vw;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
     }
@@ -119,7 +119,7 @@ border-radius: 50px;
         background-color: #2FC97F; 
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 5.5vw;
         overflow-x: hidden; /* Disable horizontal scroll */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }

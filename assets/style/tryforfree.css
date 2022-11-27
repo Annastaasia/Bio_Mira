@@ -179,7 +179,7 @@
         padding-top:5vh;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 7.5vw;
         background-image: url(../images/tryforfree/fon2.png);
         background-repeat: no-repeat;
         background-position:20% 60%; 
@@ -195,7 +195,7 @@
     .tryforfree__text1__mobile, .tryforfree__text2__mobile{
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
-        font-size: 25px;
+        font-size:6.5vw;
         margin:0;
     
     }
