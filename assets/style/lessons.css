@@ -98,23 +98,36 @@
         height: 100%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 15% 65% 20%;
+        grid-template-rows: 15% 58% 20%;
     }
 
-    .video__button {
-        width: 40%;
-        height: 60%;
-        font-size:  1.89vw;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 600;
-        background-color: #2FC97F;
-        border: none;
-        border-radius: 50px;
-        color: white;
-        justify-self: center;
-
+    
+    .video__buttons {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-template-rows: 1fr;
+       justify-content: center;
+       align-items: flex-start;
     }
+#video{
+    width:500px;
+    height:350px;
+}
+    .videobutton__left{
+        grid-column: 2/3;
+    }
+    .videobutton__right{
+        grid-column: 3/4;
+    }
+.videobutton__left img, .videobutton__right img{
+    width:20%;
+    justify-self: center;
+}
 
+.videobutton__left img:hover, .videobutton__right img:hover{
+    width:24%;
+
+}
     .lessons2 h2 {
         font-weight: 600;
     }
@@ -206,12 +219,12 @@
 
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 10% 50%;
         row-gap: 4vh;
         background-image: url('../images/lessons/conspect_fon.png');
         background-size: 125%;
         background-repeat: no-repeat;
-        background-position-y: 60%;
+        background-position-y: 10%;
         background-position-x: 32%;
     }
 
@@ -249,20 +262,41 @@
     .video {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 15% 85%;
-        row-gap: 6vh;
-        justify-content: center;
+        grid-template-rows: 15% 50%;
+        row-gap: 2vh;
+        justify-items: center;
     }
 
     .video h2 {
         text-align: center;
 
     }
-
-    .video__button {
-        display: none;
+    #video{
+        width:300px;
+        height:1-0px;
     }
-
+    .video__buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        margin:auto;
+        padding-left:10vw;
+ 
+ 
+     }
+     .videobutton__left{
+         grid-column: 2/3;
+     }
+     .videobutton__right{
+         grid-column: 3/4;
+     }
+ .videobutton__left img, .videobutton__right img{
+     width:30%;
+     justify-self: center;
+    
+ }
+ 
     .lessons__ul {
         padding-top: 5vh;
         display: grid;
@@ -305,13 +339,13 @@
         padding-right: 5vw;
         padding-top: 5vh;
         grid-template-columns: 90vw;
-        grid-template-rows: 100vh 35vh;
+        grid-template-rows: 110vh 35vh;
     }
 
     .lessons2 {
         grid-row: 1/2;
         display: grid;
-        grid-template-rows: 30% 70%;
+        grid-template-rows: 45% 70%;
         grid-template-columns: 100%;
     }
 

@@ -110,8 +110,14 @@
             <div class="lessons2">
                 <div class="video">
                     <h2>Фрагменты видеоуроков</h2>
-                    <div class="video__div"><video class="video__video"></video></div><button
-                        class="video__button">Следующий</button>
+                    <div class="video__div">
+                        <iframe class="video__video" id="video" src="https://www.youtube.com/embed/GhD_WWGZeuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="video__buttons">
+                        <div class="videobutton__left"><a><img src="./assets/images/lessons/botton_left.png" alt="Влево"
+                            onclick="videobutton_left()"></a></div>
+                        <div class="videobutton__right"><a><img onclick="videobutton_right()"
+                        src="./assets/images/lessons/botton_right.png" alt="Вправо"></a></div>
+                    </div>
                 </div>
                 <div class="teoria">
                     <h2>Ёмкие и красочные конспекты</h2>
@@ -339,6 +345,7 @@
     <script src="./assets/script/animation.js"></script>
     <script src="./assets/script/otzivy.js"></script>
     <script src="./assets/script/menu.js"></script>
+    <script src="./assets/script/videos.js"></script>
 </body>
 
 </html>
