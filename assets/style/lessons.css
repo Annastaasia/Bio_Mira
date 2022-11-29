@@ -1,6 +1,6 @@
 @media screen and (min-width: 601px) {
     .lessons {
-        padding-top:10vh;
+        padding-top: 10vh;
         display: grid;
         grid-template-columns: 60% 40%;
         grid-template-rows: 1fr;
@@ -16,7 +16,7 @@
         padding-top: 1vh;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
-        font-size:4.17vw;
+        font-size: 4.17vw;
         color: white;
         text-align: center;
         background-color: #2FC97F;
@@ -101,33 +101,40 @@
         grid-template-rows: 15% 58% 20%;
     }
 
-    
+
     .video__buttons {
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr 1fr;
-       grid-template-rows: 1fr;
-       justify-content: center;
-       align-items: flex-start;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: flex-start;
     }
-#video{
-    width:500px;
-    height:350px;
-}
-    .videobutton__left{
+
+    #video {
+        width: 500px;
+        height: 350px;
+    }
+
+    .videobutton__left {
         grid-column: 2/3;
     }
-    .videobutton__right{
+
+    .videobutton__right {
         grid-column: 3/4;
     }
-.videobutton__left img, .videobutton__right img{
-    width:20%;
-    justify-self: center;
-}
 
-.videobutton__left img:hover, .videobutton__right img:hover{
-    width:24%;
+    .videobutton__left img,
+    .videobutton__right img {
+        width: 20%;
+        justify-self: center;
+    }
 
-}
+    .videobutton__left img:hover,
+    .videobutton__right img:hover {
+        width: 24%;
+
+    }
+
     .lessons2 h2 {
         font-weight: 600;
     }
@@ -205,16 +212,21 @@
     .teoria {
         display: none;
     }
-    .teoria__container__mobil{
-        align-self:flex-start;
+
+    .teoria__container__mobil {
+        align-self: flex-start;
     }
-    .teoria__mobil h2, .lessons2 h2{
+
+    .teoria__mobil h2,
+    .lessons2 h2 {
         text-align: center;
         font-size: 6vw;
     }
-    .carousel-indicators{
-        margin-top:20vh;
+
+    .carousel-indicators {
+        margin-top: 20vh;
     }
+
     .teoria__mobil {
 
         display: grid;
@@ -271,32 +283,38 @@
         text-align: center;
 
     }
-    #video{
-        width:300px;
-        height:1-0px;
+
+    #video {
+        width: 300px;
+        height: 1-0px;
     }
+
     .video__buttons {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         justify-items: center;
-        margin:auto;
-        padding-left:10vw;
- 
- 
-     }
-     .videobutton__left{
-         grid-column: 2/3;
-     }
-     .videobutton__right{
-         grid-column: 3/4;
-     }
- .videobutton__left img, .videobutton__right img{
-     width:30%;
-     justify-self: center;
-    
- }
- 
+        margin: auto;
+        padding-left: 10vw;
+
+
+    }
+
+    .videobutton__left {
+        grid-column: 2/3;
+    }
+
+    .videobutton__right {
+        grid-column: 3/4;
+    }
+
+    .videobutton__left img,
+    .videobutton__right img {
+        width: 30%;
+        justify-self: center;
+
+    }
+
     .lessons__ul {
         padding-top: 5vh;
         display: grid;
