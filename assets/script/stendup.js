@@ -43,3 +43,4 @@ const btnUp= {
 btnUp.addEventListener();
 
 
+console.log(btnUp)

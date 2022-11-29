@@ -22,7 +22,7 @@ function scrollToHalf() {
     };*/
 
 
-    let btn_home = document.getElementById('btn-home');
+    /*let btn_home = document.getElementById('btn-home');
     let home = document.getElementById('home');
     let summary = document.getElementById('summary');
     
@@ -38,4 +38,4 @@ function scrollToHalf() {
     btn_home.addEventListener('click', (e) => {
         e.preventDefault()
           scrollTo(summary)
-        })
+        })*/
