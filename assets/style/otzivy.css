@@ -128,7 +128,7 @@
         align-self: center;
         width: 60vw;
         height: 60%;
-        padding-top: 1.5vh;
+        padding-top: 1vh;
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
         font-size: 4vw;
@@ -149,14 +149,15 @@
 
     .otzivy__keys1_image {
 
-        padding-left: 15vw;
-        width: 85%;
+        padding-left: 10vw;
+        width: 88%;
 
     }
 
     .carousel-indicators {
 
         margin-bottom: 0%;
+        margin-top: 10%;
     }
 
     .otzivy__mobile1 {
