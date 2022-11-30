@@ -1,18 +1,18 @@
-/*$(document).ready(function () {
+$(document).ready(function () {
     $("#footer, #header, #mainpage").on("click", "a", function (event) {
         event.preventDefault();
         let id = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({ scrollTop: top }, 1400);
     });
-});*/
+});
 
-function scrollToHalf() {
+/*function scrollToHalf() {
 
     $('body, html').animate( {
             scrollTop: $('#otzivy').offset().top
         }, 500);
-};
+};*/
 
 /*function scrollToHal(){
     var height = $('body').height();
