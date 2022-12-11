@@ -170,7 +170,7 @@
   .mainpage {
     width: 100vw;
     padding-left: 5vw;
-    padding-top: 10vh;
+    padding-top: 3vh;
     display: grid;
     grid-template-columns: 95vw;
     grid-template-rows: 11vh 50vh 10vh;
